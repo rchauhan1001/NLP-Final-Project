@@ -12,6 +12,7 @@ The system performs multi-hop fact verification in three stages:
 3. **Claim Verification**: Classify claims as SUPPORTED or NOT_SUPPORTED
 
 ## Project Structure
+```bash
 Project/
 ├── hover_project.py              # Main implementation (WikipediaIndexer, BM25Retriever)
 ├── run_indexing.py               # Script to index Wikipedia into Elasticsearch
@@ -29,6 +30,7 @@ Project/
 │   ├── hover_dev_bm25_top100.json
 │   └── hover_test_bm25_top100.json
 └── README.md
+```
 
 ## Prerequisites
 
